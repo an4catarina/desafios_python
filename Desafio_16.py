@@ -22,7 +22,7 @@ else:
     
     if Media2 >= 5.0:
         print("Aluno aprovado.")
-        print("Média final:", f"{(Media2):.1f}")
+        print("Media final:", f"{(Media2):.1f}")
     else:
         print("Aluno reprovado.")
-        print("Média final:", f"{(Media2):.1f}")
+        print("Media final:", f"{(Media2):.1f}")
