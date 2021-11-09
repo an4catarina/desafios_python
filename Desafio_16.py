@@ -6,7 +6,7 @@ N3 = float(N3)
 N4 = float(N4)
 
 media = (N1*2 + N2*3 + N3*4 + N4)/10
-print("Media", f"{(media):.1f}")
+print(f"Media: {(media):.1f}")
 
 if media >= 7.0:
     print("Aluno aprovado.")
@@ -17,12 +17,11 @@ elif media < 5.0:
 else:
     print('Aluno em exame.')
     NE = float(input())
-    print("Nota do exame:", f"{(NE):.1f}")
+    print(f"Nota do exame: {(NE):.1f}")
     Media2 = (media+NE)/2
     
     if Media2 >= 5.0:
         print("Aluno aprovado.")
-        print("Media final:", f"{(Media2):.1f}")
     else:
         print("Aluno reprovado.")
-        print("Media final:", f"{(Media2):.1f}")
+    print(f"Media final: {(Media2):.1f}")
